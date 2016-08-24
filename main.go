@@ -17,7 +17,7 @@ func main() {
     http.HandleFunc("/new", insert)
     http.HandleFunc("/drop", drop)
 
-    log.Println("Start listening...")
+    log.Println("hsiang todo test Start listening...")
     err := http.ListenAndServe(":80", nil)
     if err != nil {
         panic(err)
